@@ -1,2 +1,33 @@
-# pocket-gollum
-Personal Wiki template that uses Gollum
+# Pocketses
+
+Pocketses is a template for a personal wiki for storing notes and
+useful information you might otherwise forget.
+
+It builds on [Gollum][], a wiki that stores pages as text files in a
+Git repository.
+
+[gollum]: https://github.com/gollum/gollum
+
+## Usage
+
+Install Gollum using [RubyGems][]
+
+```sh
+gem install gollum
+```
+
+Clone the repository, and cd into the directory, then run:
+
+```sh
+gollum -c config.rb
+```
+
+The wiki will be running at: <http://localhost:4567>
+
+[rubygems]: https://rubygems.org/
+
+## License
+
+Copyright © 2020 James Reeves
+
+Released under the MIT license.
