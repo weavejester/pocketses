@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+
+#wiki-wrapper {
+    max-width: none;
+    padding: 0;
+}
+
+#head {
+    background: #444;
+    width: 100%;
+    height: 85px;
+    margin: 0;
+    padding: 0;
+}
+
+#head h1 {
+    max-width: 940px;
+    margin: 5px auto 5px auto;
+    padding: 0 10px;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    float: none;
+    color: white;
+}
+
+#head h1 strong {
+    color: white;
+    font-weight: bold;
+}
+
+#head ul.actions {
+    max-width: 940px;
+    margin: auto;
+    padding: 0 10px;
+    float: none;
+}
+
+#head ul.actions li {
+    margin: 0;
+}
+
+#head .action-fileview {
+    display: none;
+}
+
+#head #searchbar {
+    padding: 0;
+    margin: 0 5px 0 0;
+}
+
+#head #searchbar #searchbar-fauxtext input#search-query {
+    background: #666;
+    color: white;
+    font-size: 13px;
+}
+
+#head #searchbar #searchbar-fauxtext {
+    border-radius: 0;
+    border: none;
+}
+
+#head #searchbar #search-submit {
+    display: none;
+}
+
+#head .actions .minibutton a {
+    border: none;
+    background: none;
+    color: #f5f5f5;
+    text-shadow: none;
+    padding: 5px 8px 3px 8px;
+    font-size: 13px;
+    font-weight: normal;
+    border-radius: 0;
+}
+
+#head .actions .minibutton a:hover {
+    color: white;
+    text-shadow: none;
+    background: #666;
+}
+
+#wiki-content, #wiki-history, #pages, #compare-content, .results #results {
+    max-width: 940px;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+}
+
+.markdown-body {
+    padding: 5px 10px 10px 10px;
+}
+
+#wiki-body {
+    margin: 0 0 10px 0;
+}
+
+#file-browser {
+    margin-bottom: 10px;
+}
+
+.page #footer, .history #footer, #footer {
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.results #results ul {
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+}
+
+.results #results ul li {
+    list-style: none;
+}
+
+.results #results {
+    border: none;
+}
+
+#footer p {
+    float: left;
+    margin: 0.9em 1em;
+    font-size: .9em;
+    height: 1em;
+    line-height: 1.6em;
+}
+
+#delete-link {
+    color: #b00;
+}
+
+#gollum-editor {
+    background: none;
+    border: none;
+}
+
+#gollum-editor textarea {
+    margin: 0;
+    font-family: "Fira Mono", monospace;
+    background: #f5f5f5;
+}
+
+.markdown-body code, .markdown-body pre, .markdown-body tt {
+    font-family: "Fira Mono", monospace;
+}
+
+#gollum-editor .singleline input {
+    background: #f5f5f5;
+}
+
+#gollum-editor #gollum-editor-function-bar.active #gollum-editor-function-buttons {
+    display: none;
+}
+
+#gollum-editor #gollum-editor-function-bar #gollum-editor-format-selector {
+    text-align: left;
+    padding: 0;
+}
+
+#gollum-editor #gollum-editor-function-bar {
+    border-bottom: none;
+}
+
+#gollum-editor #gollum-editor-function-bar #gollum-editor-format-selector select {
+    font-weight: normal;
+}
+
+#gollum-editor .singleline {
+    margin: 0;
+}
+
+#gollum-editor .singleline input {
+    margin-bottom: 0;
+}
+
+#gollum-dialog-dialog-inner {
+    height: 275px !important;
+    min-height: 275px !important;
+}
+
+#gollum-dialog-dialog-body fieldset .field:last-child {
+    margin: 0;
+}
+
+#gollum-editor-title-field.active {
+    border-bottom: none;
+    padding: 0;
+}
+
+#gollum-editor .path_note {
+    margin-top: 20px;
+    text-align: left;
+    color: #444;
+}
