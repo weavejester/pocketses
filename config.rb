@@ -6,3 +6,5 @@ Precious::App.set(
     :mathjax       => true
   }
 )
+
+Gollum::Markup.formats[:markdown][:regexp] = /(md$|markdown)/
