@@ -240,3 +240,13 @@ body {
     text-align: left;
     color: #444;
 }
+
+.toc-title {
+    color: #444;
+    font-size: 18px;
+}
+
+.toc > ul {
+    font-size: 17px;
+    font-size: 14px;
+}
