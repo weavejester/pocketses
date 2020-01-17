@@ -8,6 +8,10 @@
     --header-dark:    #699abd;
 }
 
+body {
+    background: #eee;
+}
+
 #wiki-wrapper {
     max-width: none;
     padding: 0;
@@ -95,27 +99,46 @@
 }
 
 #wiki-content, #wiki-history, #pages, #compare-content, .results #results {
+    background: white;
+    margin: 0;
+}
+
+#wiki-body, #file-browser, #gollum-editor, #version-form,
+#wiki-history > ul.actions,
+#wiki-history > fieldset {
+    float: none;
     max-width: 940px;
     padding: 10px;
     margin: 0 auto 0 auto;
+}
+
+#version-form {
+    padding-top: 0;
+}
+
+#wiki-history > ul.actions {
+    padding-bottom: 0;
 }
 
 .markdown-body {
     padding: 5px 10px 10px 10px;
 }
 
-#wiki-body {
-    margin: 0 0 10px 0;
-}
-
 #file-browser {
-    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .page #footer, .history #footer, #footer {
     max-width: 940px;
     padding: 0 10px;
     margin: 0 auto;
+    border-top: none;
+}
+
+#pages .breadcrumb {
+    border: 0;
+    margin: 0 0 10px 0;
+    padding: 0;
 }
 
 .results #results ul {
@@ -137,6 +160,10 @@
     font-size: .9em;
     height: 1em;
     line-height: 1.6em;
+}
+
+#footer ul.actions {
+    display: none;
 }
 
 #delete-link {
