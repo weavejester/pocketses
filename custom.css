@@ -241,6 +241,10 @@ body {
     color: #444;
 }
 
+.toc {
+    margin: 0 0 15px 0;
+}
+
 .toc-title {
     color: #444;
     font-size: 18px;
