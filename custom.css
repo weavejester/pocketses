@@ -114,9 +114,10 @@ body {
     margin: 0;
 }
 
-#wiki-body, #file-browser, #gollum-editor, #version-form,
+#wiki-body, #file-browser, #gollum-editor, #version-form
 #wiki-history > ul.actions,
-#wiki-history > fieldset {
+#wiki-history > fieldset,
+.results #results > ul {
     float: none;
     max-width: 940px;
     padding: 10px;
@@ -150,11 +151,6 @@ body {
     border: 0;
     margin: 0 0 10px 0;
     padding: 0;
-}
-
-.results #results ul {
-    margin: 0;
-    padding: 5px 10px 5px 10px;
 }
 
 .results #results ul li {
