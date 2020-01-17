@@ -1,9 +1,10 @@
 Precious::App.set(
   :wiki_options,
   {
-    :css           => true,
-    :emoji         => true,
-    :mathjax       => true
+    :css      => true,
+    :emoji    => true,
+    :mathjax  => true,
+    :h1_title => true
   }
 )
 
