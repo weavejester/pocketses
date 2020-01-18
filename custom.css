@@ -114,7 +114,7 @@ body {
     margin: 0;
 }
 
-#wiki-body, #file-browser, #gollum-editor, #version-form
+#wiki-body, #file-browser, #gollum-editor, #version-form,
 #wiki-history > ul.actions,
 #wiki-history > fieldset,
 .results #results > ul {
